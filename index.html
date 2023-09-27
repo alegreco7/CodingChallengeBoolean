@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="subContainerMargin">
+
+            <!-- Sotto una classe con un margine custom creo la prima row per il logo -->
+
+            <div class="row pt-40">
+                <div class="logo">
+                    <img src="logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <!-- Scrivo il sottotitolo dentro uno span in una nuova row -->
+
+            <div class="row pt-5">
+                <span class="subtitle-text">Taking booleaners from A to B</span>
+            </div>
+
+            <!-- Implemento una classe noCenter, per questa sezione , che sovrascriva la classe presente nel body che centra il tutto, per far iniziare tutto da sinistra -->
+            <div class="row pt-5 noCenter">
+
+                <div class="row">
+                    <div class="buttons bg-green">
+                        <div class="button">
+                            <button>Prenota</button>
+                        </div>
+                        <div class="button">
+                            <button>Termina prenotazione</button>
+                        </div>
+                        <div class="button">
+                            <button>Accendi luci</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- classe per il quadrato -->
+                <ul class="list-style">
+
+                    <!-- implementazione prima li con diverse classi per stato carica -->
+                    
+                    <li>Monopattino Gino22</li>
+                    <div class="pb-20">
+                        <span> Via Guadalametri - a 220 metri da te</span> <br>
+                        <span>Stato carica:</span>
+                        <div class="bg-charge-orange"></div>
+                    </div>
+
+
+                    <li>Monopattino Mike24</li>
+                    <div class="pb-20">
+                        <span>Via Ricciardoni - a 420 metri da te</span> <br>
+                        <span>Stato carica:</span>
+                        <div class="bg-charge-green"></div>
+                    </div>
+
+
+                    <li>Monopattino Fede154</li>
+                    <div>
+                        <span>Via Mentarini - a 490 metri da te</span> <br>
+                        <span>Stato carica:</span>
+                        <div class="bg-charge-red"></div>
+                    </div>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

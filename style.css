@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden; /* rimuovo la scroolbar */
+}
+
+body,
+span,
+li {
+   font-family: Arial, sans-serif;
+    /*font per questi tag */
+}
+
+.container {
+  width: 900px;
+  height: 670px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.subContainerMargin {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+/* dimensione al logo */
+.logo img {
+  width: 210px;
+  height: 80px;
+}
+
+/* classe per il sottotitolo */
+.subtitle-text {
+  color: #00dd00;
+  font-size: 24px;
+}
+
+/* backgroung dei bottoni  */
+.bg-green {
+  height: 40px;
+  background-color: #00dd00;
+  margin-left: 25px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Vari padding  */
+.pt-5 {
+  padding-top: 5px;
+}
+
+.pt-40 {
+  padding-top: 60px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.button {
+  margin: 0 3px;
+}
+
+/* Flex start per spostare a sinistra gli elementi all'interno dell'ul */
+.noCenter {
+    text-align: start;
+  }
+
+ul li {
+  color: white;
+  font-size: 20px;
+}
+
+span {
+  color: white;
+  font-size: 14px;
+}
+
+/* Quadrato davanti le ul */
+.list-style {
+  list-style-type: square;
+}
+
+
+/* fasi di carica con bordo e percentuale di spazio */
+.bg-charge-red {
+  border-radius: 5px;
+  background-color: #be4141;
+  height: 30px;
+  width: 20%;
+}
+
+.bg-charge-orange {
+  border-radius: 5px;
+  background-color: #f5b453;
+  height: 30px;
+  width: 40%;
+}
+
+.bg-charge-green {
+  border-radius: 5px;
+  background-color: #1ec31e;
+  height: 30px;
+  width: 70%;
+}
